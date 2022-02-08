@@ -1,0 +1,25 @@
+void main() {
+print ("Tipos de datos en listas");
+  print ("José Alberto Mendoza Tarango 6to J");
+  
+  List <int> Edad = [15,16,17];
+  List <String> Saludo = ["Hola","Mundo", "Cruel"];
+  List <double> Fracciones = [0.25, 0.33, 0.20];
+  
+  print (Edad);
+  print (Saludo);
+  print (Fracciones);
+  
+  print ("Usando for para Edad");
+  for (int E in Edad){
+       print (E);
+     }
+  print ("Usando for para Saludo");
+  for (String S in Saludo){
+       print (S);
+     }
+  print ("Usando for para Fracciones");
+  for (double F in Fracciones){
+       print (F);
+     }
+  }
